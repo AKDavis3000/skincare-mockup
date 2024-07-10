@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import CircleText from './CircleText';
 
 export default function Section1() {
   return (
@@ -12,10 +13,7 @@ export default function Section1() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias a
           aspernatur iure eligendi. Voluptates quidem ipsam.
         </p>
-        <div className="circle">
-          {/* put the picture in css as a background */}
-          <p>Buy Now</p>
-        </div>
+        <CircleText />
       </div>
     </section>
   );
