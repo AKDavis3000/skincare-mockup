@@ -94,3 +94,18 @@ body {
     }
   }
 }
+
+.scroll_container {
+  display: flex;
+  height: 60px;
+  width: 45px;
+  background-color: $dullred;
+  align-items: center;
+  justify-content: center;
+  border-radius: 95px;
+  margin: 20px auto;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
